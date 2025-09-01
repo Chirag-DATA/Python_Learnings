@@ -1,7 +1,7 @@
 import time 
 
 class ChatUser():
-    def __init__(self,username,chat_file = "chat.txt"):
+    def __init__(self,username,chat_file = "Python_Projects\CHAT_CLI\chat.txt"):
         self.username = username
         self.file = chat_file
     
@@ -36,7 +36,7 @@ def startChat():
         elif choice == 2:
             user.read_chat()
         elif choice == 3:
-            print("This is the other user on chat...")
+            print("Changing User...")
             startChat()
         elif choice == 4:
             break
